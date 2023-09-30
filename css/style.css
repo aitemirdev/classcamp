@@ -794,6 +794,7 @@ button {
 .featured-img-one {
     display: flex;
     padding-right: 60px;
+    width: 45%;
 }
 
 .featured-text-one h4 {
