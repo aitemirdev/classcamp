@@ -21,7 +21,7 @@ button {
 }
 
 .container {
-    width: 1440px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -142,6 +142,13 @@ button {
 
 .hero button ion-icon {
     padding-left: 12px;
+}
+
+.hero button:hover{
+    background: transparent;
+    border: 2px solid #3fbe57;
+    color: #3fbe57;
+    border-radius: 50px;
 }
 
 .hero h6 {
@@ -378,6 +385,12 @@ button {
     background: #fd464a;
     padding: 18px 28px;
     border-radius: 20px;
+    border: 2px solid #fd464a;
+}
+
+.add-block-title button:hover {
+    background: #3fbe57;
+    border: 2px solid #3fbe57;
 }
 
 /*add-end*/
@@ -698,27 +711,22 @@ button {
     align-items: center;
     gap: 19px;
     background: #FF4343;
+    border: 2px solid  #FF4343;
 }
 
 .offer-block button ion-icon {
     font-size: 40px;
 }
 
-.offer-img {
-    width: 1440px;
-    height: 432px;
-    background: linear-gradient(180deg, #1D1B24 0%, rgba(0, 0, 0, 0.00) 100%);
-    position: relative;
+.offer-block button:hover{
+    background: transparent;
+    color: #3fbe57;
+    border: 2px solid #3fbe57;
+    border-radius: 50px;
 }
 
-.offer-img img {
-    width: 1440px;
-    height: 432px;
-    z-index: 1;
 
-}
-
-.offer-img h1 {
+.lesson h1 {
     width: 701px;
     color: #FFF;
     text-align: center;
@@ -729,7 +737,7 @@ button {
     padding-bottom: 14px;
 }
 
-.offer-img p {
+.lesson p {
     text-align: center;
     color: rgba(255, 255, 255, 0.70);
     font-size: 23px;
@@ -737,13 +745,22 @@ button {
     line-height: 30px;
 }
 
-.offer-img-text {
-    position: absolute;
-    z-index: 2;
-    top: 95px;
-    right: 400px;
+#lesson {
+    background: url("../img/lesseon.png") no-repeat center/cover;
+    height: 60vh;
 }
 
+.lesson {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.lesson-block {
+    background: linear-gradient(180deg, #1D1B24 0%, rgba(0, 0, 0, 0.00) 100%);
+}
 
 /*<!--offer-end-->*/
 
@@ -786,6 +803,43 @@ button {
     font-weight: 400;
     line-height: 20px;
     text-transform: uppercase;
+}
+
+.featured-img-block h3{
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 20px;
+    position: absolute;
+    bottom: 120px;
+    z-index: 2;
+    left: 10px;
+}
+
+.featured-img-block p {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    position: absolute;
+    bottom: 80px;
+    z-index: 2;
+    left: 10px;
+}
+
+.featured-img-block p ion-icon {
+    font-size: 20px;
+
+}
+.featured-img-block {
+    position: relative;
+}
+
+.featured-img-block img {
+    width: 246px;
+    height: 449px;
+    flex-shrink: 0;
 }
 
 .featured-text-one h2 {
