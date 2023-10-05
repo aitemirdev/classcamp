@@ -765,7 +765,6 @@ button {
 /*<!--offer-end-->*/
 
 /*<!--featured-start-->*/
-
 #featured {
     background: #0A0A0A;
     padding-bottom: 170px;
@@ -804,6 +803,7 @@ button {
     font-weight: 400;
     line-height: 20px;
     text-transform: uppercase;
+    padding-top: 20px;
 }
 
 .featured-img-block h3{
@@ -889,6 +889,76 @@ button {
     justify-content: space-between;
 }
 
+
+.div-one{
+    background: url("../img/featured-one.png") no-repeat center/cover;
+    width: 260px;
+    height: 520px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.div-one h3{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+.div-one h6{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding:18px 0 20px 15px;
+    display: flex;
+}
+
+.div-one h6 ion-icon{
+    font-size: 20px;
+}
+
+.div-two{
+    background: url("../img/featured-two.png") no-repeat center/cover;
+    width: 260px;
+    height: 520px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.div-two h3{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+.div-two h6{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding:18px 0 20px 15px;
+    display: flex;
+}
+
+.div-two h6 ion-icon{
+    font-size: 20px;
+}
+
+.featured-img-one button:hover{
+    background: forestgreen;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border:3px solid #FFFFFF ;
+}
 /*<!--featured-end-->*/
 
 /*<!--contact-start-->*/
